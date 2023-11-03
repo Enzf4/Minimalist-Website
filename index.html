@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+    <title>Body Flow</title>
+</head>
+
+<body>
+    <section class="front-page">
+        <img class="hero" src="assets/hero.png" alt="meditation">
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.svg" alt="body flow">
+                <h1>body flow</h1>
+            </div>
+            <div class="links">
+                <a href="#">our story</a>
+                <a href="#">practice</a>
+                <a href="#">classes</a>
+            </div>
+            <svg width="44" height="18" viewBox="0 0 27 18" fill="none" mlns="http://www.w3.org/2000/svg">
+                <!--Scalable Vector Graphics-->
+                <line class="line" y1="1" x2="27" y2="1" stroke="white" stroke-width="2" />
+                <line class="line" y1="9" x2="27" y2="9" stroke="white" stroke-width="2" />
+                <line class="line" y1="17" x2="27" y2="17" stroke="white" stroke-width="2" />
+            </svg>
+        </nav>
+        <div class="selling-point">
+            <h2>Let your mind breathe.</h2>
+            <h3>
+                Get unlimited access to yoga, pilates, and meditation classes that fit the way you feel.
+            </h3>
+            <div class="ctas"> <!--ctas = Call to Action-->
+                <button class="cta-sec">Explore classes</button>
+                <button class="cta-main">Sign up today</button>
+            </div>
+        </div>
+    </section>
+    <section class="classes">
+        <div class="classes-description">
+            <h2>Classes tailored for you</h2>
+            <h3>It's time to heal your mind and body</h3>
+        </div>
+        <div class="videos">
+            <div class="pilates">
+                <h3 class="video-desc">Pilates</h3>
+                <video muted loop class="video" src="assets/pilates.mp4"></video>
+            </div>
+            <div class="yoga">
+                <h3 class="video-desc">Yoga</h3>
+                <video muted loop class="video" src="assets/yoga.mp4"></video>
+            </div>
+            <div class="meditation">
+                <h3 class="video-desc">Meditation</h3>
+                <video muted loop class="video" src="assets/meditation.mp4"></video>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="our-story">
+            <h2>Our story...</h2>
+            <p>Inspired by a deep passion for yoga and meditation, Emma embarked on a journey to create a digital haven
+                where seekers of inner peace could find solace. 'Serenity Haven' emerged as a global sanctuary, offering
+                guided meditation, yoga wisdom, and a community for like-minded individuals. Emma's dream, born from
+                love for these ancient practices, continues to inspire and guide countless souls worldwide on their path
+                to well-being and self-discovery. Join us in the pursuit of serenity.</p>
+        </div>
+        <img src="assets/our-story.png" alt="our-story">
+        <svg id="blob1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#FF0066"
+                d="M33.9,-43.4C40.8,-34.5,41.4,-20.9,45.6,-6.6C49.8,7.7,57.7,22.8,55.7,37.6C53.6,52.3,41.6,66.8,27.9,67.8C14.3,68.9,-0.9,56.6,-16.1,49C-31.2,41.4,-46.3,38.4,-58.6,28.4C-70.9,18.4,-80.3,1.3,-76.9,-12.8C-73.5,-26.8,-57.2,-37.8,-42.3,-45.3C-27.3,-52.8,-13.7,-56.9,-0.1,-56.8C13.4,-56.6,26.9,-52.3,33.9,-43.4Z"
+                transform="translate(100 100)" />
+        </svg>
+        <svg id="blob2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#FF0066"
+                d="M42.5,-71.8C54.8,-66.4,64.5,-54.6,68.1,-41.6C71.7,-28.5,69.4,-14.3,68.8,-0.3C68.2,13.6,69.5,27.2,63.1,35.5C56.7,43.8,42.7,46.8,30.9,51.9C19.2,57.1,9.6,64.4,0.3,63.9C-9,63.4,-18,55,-28.7,49.3C-39.4,43.5,-51.8,40.3,-61,32.5C-70.2,24.7,-76.1,12.4,-73.8,1.4C-71.4,-9.6,-60.7,-19.2,-54.2,-31.7C-47.7,-44.2,-45.5,-59.6,-37.2,-67.3C-28.9,-75,-14.4,-75,0.3,-75.6C15.1,-76.1,30.1,-77.2,42.5,-71.8Z"
+                transform="translate(100 100)" />
+        </svg>
+    </section>
+</body>
+
+</html>
